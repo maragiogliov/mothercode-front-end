@@ -1,0 +1,19 @@
+@import '../variables/variables';
+
+input {
+    font-family: $font-headline-bold;
+    border-radius: $border-radius-m;
+    padding: $padding-l * 1.5;
+    min-width: 100%;
+    margin-right: $margin-xl * 6;
+    border: solid $form-primary-color-lightest $margin-s;
+    font-size: $font-m * 1.13;
+}
+
+input:last-of-type {
+    margin-bottom: $margin-l;
+}
+
+input[type='password'] {
+    margin-bottom: $margin-xl * 1.2;
+}

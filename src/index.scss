@@ -1,0 +1,52 @@
+@import './styles/variables/variables';
+@import './styles/login/login';
+@import './styles/form/form';
+@import './styles/field/field';
+@import './styles/message/message';
+@import './styles/button/button';
+@import './styles/signup/signup';
+@import './styles/calendar/calendar';
+@import './styles/dashboard/dashboard';
+@import './styles/whiteboard/whiteboard';
+@import './styles/mobile/login/login';
+@import './styles/mobile/form/form';
+@import './styles/mobile/signup/signup';
+@import './styles/mobile/editor-mobile/editor-mobile';
+
+// body {
+//     margin: 0;
+//     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+//         'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+//         'Helvetica Neue', sans-serif;
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+//     // background-color: rebeccapurple;
+// }
+
+// code {
+//     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+//         monospace;
+// }
+
+body {
+    // height: 20rem;
+    // max-width: 50wh;
+    background-color: $color-primary;
+    background: $background-gradient;
+    overflow: hidden;
+
+    font-size: 1.6rem;
+}
+
+:root {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}

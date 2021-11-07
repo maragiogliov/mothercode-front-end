@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import '../variables/variables';
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap');
+
+@media (min-width: 931px) {
+    .login {
+        position: relative;
+        max-width: $full-screen-percent;
+        height: $full-screen-height-vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 $padding-xl * 20;
+
+        .grafic {
+            position: absolute;
+            width: $margin-xl * 50;
+            height: $margin-xl * 25;
+            display: block;
+            margin-top: $margin-xl * -30;
+            // left: 53rem;
+            z-index: -1;
+        }
+
+        .login-image--container {
+            color: $color-text-lightest;
+            font-family: $font-headline-bold;
+            font-size: $font-l * 1.2;
+            padding: 0 $margin-xl * 5 0 0;
+            // border: 1px solid yellow;
+
+            .login--image {
+                display: block;
+                width: $margin-xl * 25;
+                margin: 0 auto;
+                margin-bottom: 0;
+            }
+
+            .login--headline {
+                font-size: 7rem;
+                text-align: center;
+                margin: 0 0 1rem 0;
+
+                // border: 1px solid yellow;
+            }
+            .login--headline-secondary {
+                text-align: center;
+                font-size: 2.6rem;
+                font-family: 'DM Mono', monospace;
+                margin: 0 0 0 0;
+                font-weight: 500;
+            }
+        }
+    }
+}

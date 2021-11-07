@@ -1,0 +1,27 @@
+.resize-container {
+  display: flex;
+  border: 1px solid #cbd5e0;
+  height: 16rem;
+  width: 100%;
+  height: 100vh;
+}
+.container__left {
+  width: 49%;
+  height: 100%;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.resizer {
+  background-color: #cbd5e0;
+  cursor: ew-resize;
+  height: 100%;
+  width: 2px;
+}
+.container__right {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

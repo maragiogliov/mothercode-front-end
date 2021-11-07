@@ -1,0 +1,137 @@
+@import '../../variables/variables';
+
+@media (max-width: 744px) {
+    .student {
+        display: flex;
+        position: relative;
+        // height: 100vh;
+        max-height: 100%;
+        overflow-y: hidden;
+    }
+
+    .main {
+        background-color: $editor-code-pane-color;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: $full-screen-percent;
+        overflow: hidden;
+
+        // overflow: scroll;
+
+        .top--buttons {
+            display: flex;
+            justify-content: space-around;
+
+            // border: 1px solid yellow;
+            .button-container-left {
+                display: flex;
+                margin: 0 $margin-xl 0 0;
+                width: $margin-xl * 12;
+                padding: 0;
+            }
+            .button-container-right {
+                margin: 0;
+                padding: 0 0 0 0;
+
+                .global-class-name {
+                    display: none;
+                }
+            }
+        }
+
+        .container__left {
+            display: flex;
+            flex-direction: row;
+            // flex-grow: 4;
+            height: $full-screen-percent / 2;
+            // height: 50%;
+            // width: 100%;
+
+            .CodeMirror {
+                position: relative;
+                margin: $margin-l 0 0 $margin-m;
+                height: $full-screen-percent;
+
+                div {
+                    position: absolute;
+                    .CodeMirror-cursor {
+                        border-left: 1px solid $form-primary-color-lightest;
+                    }
+                    .CodeMirror-linenumber {
+                        color: $form-primary-color-lightest;
+                        margin-left: -2 * $margin-xl;
+                        // border: 1px solid yellow;
+                    }
+                    .CodeMirror-code {
+                    }
+
+                    .CodeMirror-gutters {
+                        z-index: 1;
+                        background-color: $editor-code-pane-color;
+                    }
+
+                    .CodeMirror-scroll {
+                        // margin: 0;
+                        .CodeMirror-sizer {
+                            // border: 1px solid yellow;
+                            // margin: 10rem;
+                        }
+                    }
+
+                    margin: 0;
+                    padding: 0;
+                    text-indent: $margin-xl;
+                }
+            }
+        }
+
+        .resizer {
+            display: none;
+        }
+
+        .container__right {
+            position: absolute;
+            display: flex;
+            flex-flow: row wrap;
+            height: $full-screen-percent / 2;
+            width: $full-screen-percent;
+
+            bottom: 0;
+            z-index: 5;
+
+            .button-instructions {
+                display: none;
+            }
+
+            .instructions--container {
+                height: 90%;
+                overflow-y: scroll;
+            }
+        }
+    }
+    .editor--footer {
+        background-color: $editor-code-pane-color;
+
+        height: $margin-xl * 2;
+        position: fixed;
+        z-index: 5;
+        bottom: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: $padding-l;
+
+        .button-instructions {
+            display: block;
+            padding: 0;
+            margin: 0 0 0 0;
+            height: 4rem;
+        }
+
+        .custom--icon,
+        .button-console {
+            display: none;
+        }
+    }
+}

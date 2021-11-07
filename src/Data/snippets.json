@@ -1,0 +1,22 @@
+[
+    {
+        "name": "random number generator",
+        "module": "js",
+        "code": "const randomNumber = (min, max) =>  Math.floor(Math.random() * (max - min + 1)) + min;"
+    },
+    {
+        "name": "random number generator",
+        "module": "js",
+        "code": "const randomNumber = (min, max) =>  Math.floor(Math.random() * (max - min + 1)) + min;"
+    },
+    {
+        "name": "random number generator",
+        "module": "js",
+        "code": "const randomNumber = (min, max) =>  Math.floor(Math.random() * (max - min + 1)) + min;"
+    },
+    {
+        "name": "random number generator",
+        "module": "js",
+        "code": "const randomNumber = (min, max) =>  Math.floor(Math.random() * (max - min + 1)) + min;"
+    }
+]

@@ -1,0 +1,1414 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@font-face {
+  font-family: Aspira-Bold;
+  src: url("../../fonts/Aspira_Bold.otf");
+}
+
+@font-face {
+  font-family: Aspira-Light;
+  src: url("../../fonts/Aspira_Light.otf");
+}
+
+@font-face {
+  font-family: Aspira-Bold;
+  src: url("../../fonts/Aspira_Bold.otf");
+}
+
+@font-face {
+  font-family: Aspira-Light;
+  src: url("../../fonts/Aspira_Light.otf");
+}
+
+@media (min-width: 931px) {
+  .login {
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 0 40rem;
+  }
+  .login .grafic {
+    position: absolute;
+    width: 100rem;
+    height: 50rem;
+    display: block;
+    margin-top: -60rem;
+    z-index: -1;
+  }
+  .login .login-image--container {
+    color: #dedee9;
+    font-family: Aspira-Bold;
+    font-size: 2.4rem;
+    padding: 0 10rem 0 0;
+  }
+  .login .login-image--container .login--image {
+    display: block;
+    width: 50rem;
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  .login .login-image--container .login--headline {
+    text-align: center;
+    margin: 0 0 1rem 0;
+  }
+  .login .login-image--container .login--headline-secondary {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Aspira-Bold;
+    margin: 0 0 0 0;
+    font-weight: 500;
+  }
+}
+
+@font-face {
+  font-family: Aspira-Bold;
+  src: url("../../fonts/Aspira_Bold.otf");
+}
+
+@font-face {
+  font-family: Aspira-Light;
+  src: url("../../fonts/Aspira_Light.otf");
+}
+
+@media (min-width: 931px) {
+  .form--container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 40rem;
+    height: 58rem;
+    background-color: whitesmoke;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 4rem;
+  }
+  .form--container h2 {
+    text-align: center;
+  }
+  .form--container p {
+    margin-top: 0.7rem;
+    margin-bottom: 1.5rem;
+    color: #555555;
+    font-family: Aspira-Light;
+    font-weight: 300;
+    text-align: center;
+  }
+  .form--container .form-string--or {
+    margin: 2rem 0;
+    width: 80%;
+    text-align: center;
+    border-bottom: 2px solid #555555;
+    line-height: 0.1px;
+  }
+  .form--container .form-string--or span {
+    background-color: whitesmoke;
+    padding: 0 10px;
+  }
+}
+
+@font-face {
+  font-family: Aspira-Bold;
+  src: url("../../fonts/Aspira_Bold.otf");
+}
+
+@font-face {
+  font-family: Aspira-Light;
+  src: url("../../fonts/Aspira_Light.otf");
+}
+
+input {
+  font-family: Aspira-Bold;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  min-width: 100%;
+  margin-right: 6rem;
+  border: solid white 0.25rem;
+  font-size: 1.13rem;
+}
+
+input:last-of-type {
+  margin-bottom: 1rem;
+}
+
+input[type='password'] {
+  margin-bottom: 2.4rem;
+}
+
+@font-face {
+  font-family: Aspira-Bold;
+  src: url("../../fonts/Aspira_Bold.otf");
+}
+
+@font-face {
+  font-family: Aspira-Light;
+  src: url("../../fonts/Aspira_Light.otf");
+}
+
+.message--login,
+.message--welcome {
+  font-family: "Poppins", "Aspira_Light", "Times";
+}
+
+.message--welcome {
+  font-weight: 400;
+}
+
+.message--title {
+  position: absolute;
+  top: 12rem;
+  left: 9rem;
+  color: white;
+  font-family: "Poppins", "Aspira_Light", "Times";
+  font-size: 3rem;
+}
+
+.message--option {
+  font-family: Aspira-Bold;
+  color: #737373;
+}
+
+@font-face {
+  font-family: Aspira-Bold;
+  src: url("../../fonts/Aspira_Bold.otf");
+}
+
+@font-face {
+  font-family: Aspira-Light;
+  src: url("../../fonts/Aspira_Light.otf");
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.button-google,
+.button-login,
+.button-register,
+.button-github {
+  padding: 1rem 7rem;
+  border-radius: 0.5rem;
+  background-color: #fc6500;
+  color: #dedee9;
+  cursor: pointer;
+  font-family: Aspira-Light;
+  font-size: 1.5rem;
+  font-weight: 800;
+  border: solid #fc6500 0.25rem;
+}
+
+.button-google,
+.button-github {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 1rem;
+  background-color: white;
+  color: #737373;
+  border: solid white 0.25rem;
+  background-image: url("https://s2.qwant.com/thumbr/0x380/f/2/580888394b8017d6ccf8db4e4c77fe7cbb69f55b962c393fbfce62ec003eb7/google-logo-transparent-background-4.png?u=http%3A%2F%2Fbackgroundcheckall.com%2Fwp-content%2Fuploads%2F2017%2F12%2Fgoogle-logo-transparent-background-4.png&q=0&b=1&p=0&a=0");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.button-github {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/25/25231.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.button-google:hover,
+.button-github:hover,
+.button-login:hover {
+  -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.button-html,
+.button-css,
+.button-js {
+  width: 7rem;
+  margin-right: 2rem;
+  border-radius: 3px;
+  color: white;
+  background-color: #121c2e;
+  margin-left: 0.5rem;
+  border: none;
+  font-weight: bold;
+  padding: 0.6rem;
+  border: 2px solid #121c2e;
+  opacity: 0.6;
+}
+
+.button-instructions {
+  opacity: 0.7;
+  color: white;
+  border-radius: 3px;
+  padding: 0.7rem;
+  margin-right: 1rem;
+  font-weight: bold;
+  border: 1px solid white;
+  background-color: #121c2e;
+}
+
+.button-console,
+.button--notification,
+.button-instructions,
+.button-comment,
+.button-submit,
+.button-sent,
+.button-review,
+.button-approved {
+  margin-left: 1rem;
+  width: 9rem;
+  border-radius: 3px;
+  padding: 0.7rem;
+  color: #121c2e;
+  background-color: #ffff49;
+  font-weight: bold;
+  border: none;
+}
+
+.button-sent,
+.button-approved {
+  min-width: 7rem;
+  background-color: green;
+  padding: 0.7rem;
+  margin-left: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.button-active {
+  background-color: #121c2e;
+  border-color: white;
+  opacity: 1;
+}
+
+.button-html {
+  border: 1px solid white;
+}
+
+.button-html.button-active {
+  background-color: #ee4705;
+  border-color: #ee4705;
+}
+
+.button-css {
+  border: 1px solid white;
+}
+
+.button-css.button-active {
+  border-color: #496de2;
+  background-color: #496de2;
+}
+
+.button-js {
+  border: 1px solid white;
+}
+
+.button-js.button-active {
+  background-color: #ffff49;
+  border-color: #ffff49;
+  color: #121c2e;
+}
+
+.exampleClass {
+  padding: 12px 24px;
+  background-color: white;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+}
+
+.students--container select {
+  min-width: 18rem;
+  border-radius: 3px;
+  padding: 0.75rem;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+.custom--menu select {
+  min-width: 12rem;
+  border-radius: 3px;
+  padding: 0.75rem;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+.button-instructions {
+  margin-left: 6rem;
+  width: 12rem;
+  background-color: #121c2e;
+  color: white;
+  border: 1px solid white;
+}
+
+.instructions-active {
+  opacity: 1;
+  color: white;
+  font-weight: bold;
+  color: #121c2e;
+  background-color: white;
+}
+
+.button-console {
+  margin-left: 6rem;
+  width: 12rem;
+  background-color: #121c2e;
+  color: white;
+  border: 1px solid white;
+}
+
+.console-active {
+  opacity: 1;
+  color: white;
+  font-weight: bold;
+  color: #121c2e;
+  background-color: white;
+}
+
+.radio--container input {
+  left: -170px !important;
+}
+
+.create-btn {
+  width: 15rem;
+}
+
+@media (min-width: 744px) {
+  footer .button-instructions {
+    display: none;
+  }
+}
+
+.range {
+  -webkit-appearance: none;
+  vertical-align: middle;
+  outline: none;
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+.range::-webkit-slider-runnable-track {
+  background-color: #d7dbdd;
+  height: 6px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+}
+
+.range::-moz-range-track {
+  background-color: #d7dbdd;
+  height: 6px;
+  border-radius: 3px;
+  border: none;
+}
+
+.range::-ms-track {
+  color: transparent;
+  border: none;
+  background: none;
+  height: 6px;
+}
+
+.range::-ms-fill-lower {
+  background-color: #d7dbdd;
+  border-radius: 3px;
+}
+
+.range::-ms-fill-upper {
+  background-color: #d7dbdd;
+  border-radius: 3px;
+}
+
+.range::-ms-tooltip {
+  display: none;
+  /* display and visibility only */
+}
+
+.range::-moz-range-thumb {
+  border-radius: 20px;
+  height: 18px;
+  width: 18px;
+  border: none;
+  background: none;
+  background-color: #606670;
+}
+
+.range:active::-moz-range-thumb {
+  outline: none;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  border-radius: 100%;
+  background-color: #606670;
+  height: 18px;
+  width: 18px;
+  margin-top: -7px;
+}
+
+.range:active::-webkit-slider-thumb {
+  outline: none;
+}
+
+.range::-ms-thumb {
+  border-radius: 100%;
+  background-color: #606670;
+  height: 18px;
+  width: 18px;
+  border: none;
+}
+
+.range:active::-ms-thumb {
+  border: none;
+}
+
+output {
+  border: 1px solid #d7dbdd;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  padding: 0.4em 0.6em;
+  border-radius: 3px;
+}
+
+.greyed-out {
+  background-color: gray;
+}
+
+@font-face {
+  font-family: Aspira-Bold;
+  src: url("../../fonts/Aspira_Bold.otf");
+}
+
+@font-face {
+  font-family: Aspira-Light;
+  src: url("../../fonts/Aspira_Light.otf");
+}
+
+@media (min-width: 931px) {
+  .signup {
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 0 40rem;
+  }
+  .signup .grafic {
+    position: absolute;
+    width: 100rem;
+    height: 50rem;
+    display: block;
+    margin-top: -60rem;
+    z-index: -1;
+  }
+  .signup .login-image--container {
+    color: #dedee9;
+    font-family: Aspira-Bold;
+    font-size: 2.4rem;
+    padding: 0 10rem 0 0;
+  }
+  .signup .login-image--container .login--image {
+    display: block;
+    width: 50rem;
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  .signup .login-image--container .login--headline {
+    text-align: center;
+    margin: 0 0 1rem 0;
+  }
+  .signup .login-image--container .login--headline-secondary {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Aspira-Bold;
+    margin: 0 0 0 0;
+    font-weight: 500;
+  }
+  .signup .form-signup--container {
+    height: 48rem;
+  }
+  .signup .form-signup--container .message--signup {
+    font-family: Aspira-Bold;
+  }
+  .signup .form-signup--container input[type='password'] {
+    margin-bottom: 3.4rem;
+  }
+}
+
+@font-face {
+  font-family: Aspira-Bold;
+  src: url("../../fonts/Aspira_Bold.otf");
+}
+
+@font-face {
+  font-family: Aspira-Light;
+  src: url("../../fonts/Aspira_Light.otf");
+}
+
+.dash {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1.5fr 2.5fr 3fr 1fr;
+      grid-template-rows: 1.5fr 2.5fr 3fr 1fr;
+  background-color: #f8f8fb;
+  height: 95vh;
+  overflow-y: scroll;
+}
+
+.card-description-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 3%;
+  padding-left: 3%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f0f0f0;
+  color: #121c2e;
+  border-radius: 5rem;
+  margin-bottom: 2rem;
+  height: 5vh;
+}
+
+.dashboard--second {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  background-color: #f8f8fb;
+  margin-left: 2rem;
+}
+
+.period--exercise--dashboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e7e3e3;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.period--exercise--dashboard .widgetSm {
+  border-radius: 1rem;
+}
+
+.period--exercise--dashboard img {
+  border-radius: 50%;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.exercise--dashboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e7e3e3;
+  padding: 1rem;
+}
+
+.exercise--dashboard img {
+  border-radius: 50%;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.attendance--dashboard {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e7e3e3;
+}
+
+.dashboard--header {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 /3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  background-color: #f0f0f0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dashboard--second {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 /3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  background-color: #f8f8fb;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dashboard--header__box_one {
+  background-color: #f8f8fb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard--header__box_one hr {
+  display: none;
+}
+
+.dashboard--header__box_two {
+  background-color: #f8f8fb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard--header__box_two hr {
+  display: none;
+}
+
+.dashboard--header__box_three {
+  background-color: #f8f8fb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard--header__box_three hr {
+  display: none;
+}
+
+.dashboard--header__box_one,
+.dashboard--header__box_two,
+.dashboard--header__box_three {
+  background-color: #f8f8fb;
+  padding: 1rem 0 0 0;
+}
+
+.period--exercise--dashboard,
+.exercise--dashboard,
+.attendance--dashboard,
+.notifications--dashboard,
+.chat--dashboard {
+  background-color: #f8f8fb;
+}
+
+.dashboard--third {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 /3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin-bottom: 1rem;
+  background-color: #f8f8fb;
+}
+
+.notifications--dashboard {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.notifications--dashboard .widgetSm {
+  margin-top: 0;
+}
+
+.chat--dashboard {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.chat--dashboard .widgetSm {
+  margin-top: 0;
+}
+
+.lower2--dashboard {
+  border: 1px solid;
+}
+
+.chat--dashboard .feedback--container {
+  position: static !important;
+}
+
+.dashboard--bottom {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr, 1fr;
+      grid-template-columns: 1fr, 1fr;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 /3;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4 / 5;
+  padding: 0.5rem 1rem;
+  background-color: #f8f8fb;
+  margin-bottom: 3rem;
+}
+
+.dashboard--bottom .chat--input-dash--1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 /2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 6rem;
+  margin-right: 1rem;
+  background-color: #f8f8fb;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.dashboard--bottom .chat--input-dash--2 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 /3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 6rem;
+  margin-left: 1rem;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.dash--chat__box {
+  width: 85%;
+}
+
+.button-submit {
+  padding: 1rem 0.15rem;
+  margin: 0 0.5rem;
+  background-color: #ffff49;
+  border-radius: 3px;
+}
+
+.dashboard--bottom .dash--input {
+  width: 75% !important;
+}
+
+.chat--dashboard .feedback--container {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.chat--input-dash--1,
+.chat--input-dash--2 {
+  background-color: #f8f8fb;
+}
+
+@media (max-width: 772px) {
+  .login {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    width: 100wh;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  .login .grafic {
+    position: absolute;
+    width: 58rem;
+    height: 40rem;
+    display: block;
+    margin: -20rem 0 0 -15rem;
+    z-index: -1;
+  }
+  .login .login-image--container {
+    padding: 0;
+    color: #dedee9;
+    font-family: Aspira-Bold;
+    font-size: 2.4rem;
+  }
+  .login .login-image--container .login--image {
+    display: block;
+    width: 30rem;
+    margin-bottom: 0;
+  }
+  .login .login-image--container .login--headline {
+    text-align: center;
+    margin-top: 0;
+  }
+  .login .login-image--container .login--headline-secondary {
+    text-align: center;
+    display: none;
+  }
+  .login .login-image--container .title-slogan {
+    line-height: 0.5;
+  }
+  .login .login-image--container .title-slogan h4 {
+    font-family: Aspira-Light;
+    margin-top: 2rem;
+  }
+  .login .form--container {
+    height: 56rem;
+    position: absolute;
+    top: 30rem;
+  }
+}
+
+@media (min-width: 773px) and (max-width: 930px) {
+  .login {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    width: 100wh;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  .login .grafic {
+    position: absolute;
+    width: 80rem;
+    height: 70rem;
+    display: block;
+    margin-top: -44rem;
+    z-index: -1;
+  }
+  .login .login-image--container {
+    display: block;
+    padding: 0 0;
+    color: #dedee9;
+    font-family: Aspira-Bold;
+    font-size: 2.4rem;
+  }
+  .login .login-image--container .login--image {
+    display: block;
+    width: 34rem;
+    padding: 0;
+  }
+  .login .login-image--container .login--headline {
+    text-align: center;
+    margin: 0 0 1rem 0;
+  }
+  .login .login-image--container .login--headline-secondary {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Aspira-Bold;
+    margin: 0 0 0 0;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 625px) {
+  .form--container {
+    overflow-x: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 40rem;
+    height: 58rem;
+    background-color: whitesmoke;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    padding: 4rem;
+  }
+  .form--container h2 {
+    text-align: center;
+  }
+  .form--container p {
+    margin-top: 0.7rem;
+    margin-bottom: 1.5rem;
+    color: #555555;
+    font-family: Aspira-Light;
+    font-weight: 300;
+    text-align: center;
+  }
+  .form--container .form-string--or {
+    margin: 2rem 0;
+    width: 80%;
+    text-align: center;
+    border-bottom: 2px solid #555555;
+    line-height: 0.1px;
+  }
+  .form--container .form-string--or span {
+    background-color: whitesmoke;
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: 626px) and (max-width: 929.99px) {
+  .form--container {
+    overflow-x: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 40rem;
+    height: 58rem;
+    background-color: whitesmoke;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    padding: 4rem;
+  }
+  .form--container h2 {
+    text-align: center;
+  }
+  .form--container p {
+    margin-top: 0.7rem;
+    margin-bottom: 1.5rem;
+    color: #555555;
+    font-family: Aspira-Light;
+    font-weight: 300;
+    text-align: center;
+  }
+  .form--container .form-string--or {
+    margin: 2rem 0;
+    width: 80%;
+    text-align: center;
+    border-bottom: 2px solid #555555;
+    line-height: 0.1px;
+  }
+  .form--container .form-string--or span {
+    background-color: whitesmoke;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 772px) {
+  .signup {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    width: 100wh;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .signup .grafic {
+    position: absolute;
+    width: 58rem;
+    height: 40rem;
+    display: block;
+    margin: -20rem 0 0 -15rem;
+    z-index: -1;
+  }
+  .signup .login-image--container {
+    padding: 0;
+    color: #dedee9;
+    font-family: Aspira-Bold;
+    font-size: 2.4rem;
+  }
+  .signup .login-image--container .login--image {
+    display: block;
+    width: 30rem;
+    margin-bottom: 0;
+  }
+  .signup .login-image--container .login--headline {
+    text-align: center;
+    margin: 0 0 1rem 0;
+  }
+  .signup .login-image--container .login--headline-secondary {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Aspira-Bold;
+    margin: 0 0 0 0;
+    font-weight: 500;
+    display: none;
+  }
+  .signup .form-signup--container {
+    height: 48rem;
+    position: absolute;
+    top: 30rem;
+  }
+  .signup .form-signup--container .message--signup {
+    font-family: Aspira-Bold;
+  }
+  .signup .form-signup--container input[type='password'] {
+    margin-bottom: 3.4rem;
+  }
+}
+
+@media (min-width: 773px) and (max-width: 930px) {
+  .signup {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    width: 100wh;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  .signup .grafic {
+    position: absolute;
+    width: 80rem;
+    height: 70rem;
+    display: block;
+    margin-top: -44rem;
+    z-index: -1;
+  }
+  .signup .login-image--container {
+    display: block;
+    padding: 0 0;
+    color: #dedee9;
+    font-family: Aspira-Bold;
+    font-size: 2.4rem;
+  }
+  .signup .login-image--container .login--image {
+    display: block;
+    width: 34rem;
+    padding: 0;
+  }
+  .signup .login-image--container .login--headline {
+    text-align: center;
+    margin: 0 0 1rem 0;
+  }
+  .signup .login-image--container .login--headline-secondary {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Aspira-Bold;
+    margin: 0 0 0 0;
+    font-weight: 500;
+  }
+  .signup .form-signup--container {
+    height: 48rem;
+  }
+  .signup .form-signup--container input[type='password'] {
+    margin-bottom: 3.4rem;
+  }
+}
+
+@font-face {
+  font-family: Aspira-Bold;
+  src: url("../../fonts/Aspira_Bold.otf");
+}
+
+@font-face {
+  font-family: Aspira-Light;
+  src: url("../../fonts/Aspira_Light.otf");
+}
+
+@media (max-width: 744px) {
+  .student {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    max-height: 100%;
+    overflow-y: hidden;
+  }
+  .main {
+    background-color: #121c2e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  .main .top--buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .main .top--buttons .button-container-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 2rem 0 0;
+    width: 24rem;
+    padding: 0;
+  }
+  .main .top--buttons .button-container-right {
+    margin: 0;
+    padding: 0 0 0 0;
+  }
+  .main .top--buttons .button-container-right .global-class-name {
+    display: none;
+  }
+  .main .container__left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 50%;
+  }
+  .main .container__left .CodeMirror {
+    position: relative;
+    margin: 1rem 0 0 0.5rem;
+    height: 100%;
+  }
+  .main .container__left .CodeMirror div {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-indent: 2rem;
+  }
+  .main .container__left .CodeMirror div .CodeMirror-cursor {
+    border-left: 1px solid white;
+  }
+  .main .container__left .CodeMirror div .CodeMirror-linenumber {
+    color: white;
+    margin-left: -4rem;
+  }
+  .main .container__left .CodeMirror div .CodeMirror-gutters {
+    z-index: 1;
+    background-color: #121c2e;
+  }
+  .main .resizer {
+    display: none;
+  }
+  .main .container__right {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    height: 50%;
+    width: 100%;
+    bottom: 0;
+    z-index: 5;
+  }
+  .main .container__right .button-instructions {
+    display: none;
+  }
+  .main .container__right .instructions--container {
+    height: 20rem;
+    overflow-y: scroll;
+  }
+  footer {
+    background-color: #121c2e;
+    height: 10rem;
+    position: fixed;
+    z-index: 5;
+    bottom: 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1rem;
+  }
+  footer .button-instructions {
+    display: block;
+    padding: 0;
+    margin: 0 0 0 0;
+    height: 4rem;
+  }
+  footer .custom--icon,
+  footer .button-console {
+    display: none;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+body {
+  background-color: #06011d;
+  overflow: hidden;
+  font-size: 1.6rem;
+}
+
+:root {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=index.css.map */

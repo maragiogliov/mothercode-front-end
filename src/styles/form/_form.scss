@@ -1,0 +1,44 @@
+@import '../variables/variables';
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap');
+@media (min-width: 931px) {
+    .form--container {
+        // overflow-x: hidden;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        min-width: $margin-xl * 19;
+        height: $margin-xl * 29;
+        background-color: $form-primary-color;
+        margin: $margin-l;
+        border-radius: $margin-l;
+        padding: $padding-xl * 2;
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            margin-top: $margin-l * 0.7;
+            margin-bottom: $margin-l * 1.5;
+            color: $form-secondary-text-color;
+            font-family: 'DM Mono', monospace;
+            font-size: 1.4rem;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .form-string--or {
+            margin: $margin-xl 0;
+            width: 80%;
+            text-align: center;
+            border-bottom: 2px solid $form-secondary-text-color;
+            line-height: 0.1px;
+
+            span {
+                background-color: $form-primary-color;
+                padding: 0 10px;
+            }
+        }
+    }
+}

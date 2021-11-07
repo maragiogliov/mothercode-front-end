@@ -1,0 +1,126 @@
+@media (max-width: 772px) {
+    .signup {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: relative;
+        width: $full-screen-width-wh;
+        height: $full-screen-height-vh;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        justify-content: center;
+
+        .grafic {
+            position: absolute;
+            width: $margin-xl * 29;
+            height: $margin-xl * 20;
+            display: block;
+            margin: $margin-xl * -10 0 0 -15rem;
+            // right: -5rem;
+            z-index: -1;
+        }
+
+        .login-image--container {
+            padding: 0;
+            color: $color-text-lightest;
+            font-family: $font-headline-bold;
+            font-size: $font-l * 1.2;
+
+            .login--image {
+                display: block;
+                width: $margin-xl * 15;
+                margin-bottom: 0;
+            }
+
+            .login--headline {
+                text-align: center;
+                margin: 0 0 1rem 0;
+
+                // border: 1px solid yellow;
+            }
+            .login--headline-secondary {
+                text-align: center;
+                font-size: 2.5rem;
+                font-family: $font-headline-bold;
+                margin: 0 0 0 0;
+                font-weight: 500;
+                display: none;
+            }
+        }
+
+        .form-signup--container {
+            height: $margin-xl * 24;
+            position: absolute;
+            top: $margin-xl * 15;
+
+            .message--signup {
+                font-family: $font-headline-bold;
+            }
+
+            input[type='password'] {
+                margin-bottom: $margin-xl * 1.7;
+            }
+        }
+    }
+}
+
+@media (min-width: 773px) and (max-width: 930px) {
+    .signup {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: relative;
+        width: $full-screen-width-wh;
+        height: $full-screen-height-vh;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+
+        .grafic {
+            position: absolute;
+            width: $margin-xl * 40;
+            height: $margin-xl * 35;
+            display: block;
+            margin-top: $margin-xl * -22;
+            z-index: -1;
+        }
+
+        .login-image--container {
+            display: block;
+            // margin: 0 5rem;
+            padding: 0 0;
+            // margin: -1 * $margin-l;
+            color: $color-text-lightest;
+            font-family: $font-headline-bold;
+            font-size: $font-l * 1.2;
+
+            .login--image {
+                display: block;
+                width: $margin-xl * 17;
+                padding: 0;
+            }
+
+            .login--headline {
+                text-align: center;
+                margin: 0 0 $margin-l 0;
+
+                // border: 1px solid yellow;
+            }
+            .login--headline-secondary {
+                text-align: center;
+                font-size: 2.5rem;
+                font-family: $font-headline-bold;
+                margin: 0 0 0 0;
+                font-weight: 500;
+                // display: none;
+            }
+        }
+        .form-signup--container {
+            height: $margin-xl * 24;
+            input[type='password'] {
+                margin-bottom: $margin-xl * 1.7;
+            }
+        }
+    }
+}

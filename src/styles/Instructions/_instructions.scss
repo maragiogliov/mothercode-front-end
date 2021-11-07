@@ -1,0 +1,44 @@
+.instructions--text {
+    //background: rgba(243, 241, 241, 0.425);
+    padding: 2rem;
+    font-family: monospace;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .instructions--title {
+        font-size: 2rem;
+        background: rgba(0, 0, 0, 0.061);
+        text-align: center;
+        margin-top: 0rem;
+    }
+    li {
+        list-style: decimal;
+        background-color: rgba(0, 128, 0, 0.082);
+    }
+    li:last-of-type {
+        background-color: transparent;
+    }
+}
+
+// .forexample {
+//     font-size: 1rem;
+//     margin-bottom: 0.5rem;
+// }
+// .example {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     padding-left: 5rem;
+// }
+// .yellow {
+//     margin-top: 0rem;
+//     margin-bottom: -0.5rem;
+//     color: rgb(212, 158, 7);
+// }
+// .neonblue {
+//     color: rgb(64, 187, 224);
+//     margin-bottom: -0.5rem;
+//     margin-left: 1rem;
+// }

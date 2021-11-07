@@ -1,0 +1,63 @@
+.custom--icon {
+    position: relative;
+}
+.custom--menu {
+    width: 20rem;
+    z-index: 5;
+    padding: 3rem;
+    background-color: white;
+    position: absolute;
+    display: none;
+    top: 60px;
+    left: -140px;
+    display: none;
+    border: 1px solid;
+    border-radius: 4px;
+    color: rgb(18, 28, 46);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    input {
+        padding: 1rem;
+        width: 90%;
+    }
+}
+
+.display--custom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom--top {
+    margin-bottom: 2rem;
+}
+
+.custom--bottom {
+    margin: 0;
+}
+
+.custom--menu::before {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: -10px;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+.dropdown--students.custom {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.custom--bottom {
+    text-align: center;
+    label {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+}

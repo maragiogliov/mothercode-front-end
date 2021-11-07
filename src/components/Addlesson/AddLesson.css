@@ -1,0 +1,125 @@
+.lesson--form {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  margin: 1rem;
+  background-color: #121c2e;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 35rem;
+  padding: 1.5rem;
+  -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: none;
+  z-index: 101;
+}
+
+textarea {
+  border: 1px solid #a9a9a9;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 0;
+  min-height: 100;
+  width: 100%;
+}
+
+.radio--container {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+}
+
+.radio--container label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem;
+  text-align: center;
+  width: 7rem;
+  color: white;
+  padding: 0;
+  white-space: pre-wrap;
+}
+
+.radio--container input {
+  margin: 0;
+  padding: 0;
+  width: 1rem;
+  left: -70px;
+  position: absolute;
+}
+
+.radio--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.display--comment {
+  display: block;
+}
+
+.comment--btn {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.lower-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.button-comment {
+  position: absolute;
+  margin: 0;
+  right: 0;
+  bottom: -5px;
+}
+
+input[type='radio'] {
+  border: 0px;
+  width: 100%;
+  height: 2em;
+}
+/*# sourceMappingURL=AddLesson.css.map */

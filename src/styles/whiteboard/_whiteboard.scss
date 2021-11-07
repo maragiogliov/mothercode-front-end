@@ -1,0 +1,65 @@
+@import '../variables/variables';
+
+.board {
+    width: 100%;
+    height: 100%;
+}
+
+.sketch {
+    width: 100%;
+    height: 100%;
+}
+
+.Kontainer {
+    width: 100%;
+    height: calc(100vh - 10rem);
+}
+
+.color-picker-Kontainer {
+    border-radius: 100%;
+    margin-right: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #6f42c1;
+    justify-content: space-around;
+
+    input {
+        display: inline;
+        margin: 0;
+        padding: 0;
+        border-radius: 100%;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+.brushsize-Kontainer {
+    display: inline;
+    color: white;
+
+    select {
+        margin-left: 1rem;
+        width: 8rem;
+        background-color: rgb(116, 42, 82);
+        color: white;
+        padding: 0.4rem 0.7rem;
+        border-radius: 5rem;
+    }
+}
+
+.tools-section {
+    margin-top: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-Kontainer {
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    margin-top: 1%;
+    background: white;
+}

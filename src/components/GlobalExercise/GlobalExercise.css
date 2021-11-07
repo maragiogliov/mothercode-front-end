@@ -1,0 +1,125 @@
+.widgetSm {
+    background-color: white;
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.widgetSmTitle {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widgetSmImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetSmList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1rem;
+}
+
+.widgetSmListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.widgetSmUser {
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetSmUsername {
+    font-weight: 600;
+}
+
+.widgetSmUserTitle {
+    font-weight: 300;
+}
+
+.widgetSmButton {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.widgetSmIcon {
+    font-size: 16px !important;
+    margin-right: 5px;
+}
+
+.student--details--container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 12rem;
+    padding-top: 2rem;
+}
+
+.stats-student--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+}
+
+.widgetSmButton-notattempted {
+    background-color: rgb(211, 92, 92);
+    padding: 1rem;
+    border-radius: 3px;
+    margin: 0.5rem;
+    color: white;
+}
+.widgetSmButton-submitted {
+    background-color: rgb(243, 243, 130);
+    padding: 1rem;
+    border-radius: 3px;
+    margin: 0.5rem;
+}
+.widgetSmButton-approved {
+    background-color: rgb(131, 250, 131);
+    padding: 1rem;
+    border-radius: 3px;
+    margin: 0.5rem;
+}
+
+.widgetSmListItem:first-of-type {
+    margin-top: 0;
+}
+
+.widgetSmButton.status {
+    background-color: rgb(131, 250, 131);
+}
+
+.student--details--container img {
+    margin-right: 3rem;
+}
+
+.widgetSmButton.lastactive {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.status--container {
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+}

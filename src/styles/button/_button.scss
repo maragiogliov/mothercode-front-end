@@ -1,0 +1,389 @@
+@import '../variables/variables';
+button {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+//// LOGIN Form
+
+.button-google,
+.button-login,
+.button-register,
+.button-github {
+    padding: $padding-l $padding-xl * 3.5;
+    border-radius: $border-radius-m;
+    background-color: $color-button;
+    color: $color-text-lightest;
+    cursor: pointer;
+    font-family: $font-headline-light;
+    font-size: $font-m * 1.5;
+    font-weight: 800;
+    border: solid $color-button $margin-s;
+}
+
+.button-google,
+.button-github {
+    width: $full-screen-percent - 25%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: $margin-l;
+    background-color: $form-primary-color-lightest;
+    color: $form-primary-text-color;
+    border: solid $form-primary-color-lightest $margin-s;
+    background-image: url('https://s2.qwant.com/thumbr/0x380/f/2/580888394b8017d6ccf8db4e4c77fe7cbb69f55b962c393fbfce62ec003eb7/google-logo-transparent-background-4.png?u=http%3A%2F%2Fbackgroundcheckall.com%2Fwp-content%2Fuploads%2F2017%2F12%2Fgoogle-logo-transparent-background-4.png&q=0&b=1&p=0&a=0');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+.button-github {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/25/25231.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+.button-google:hover,
+.button-github:hover,
+.button-login:hover {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+////Language Buttons
+
+.button-html,
+.button-css,
+.button-js {
+    width: 7rem;
+    margin-right: $margin-xl;
+    border-radius: 3px;
+    color: $form-primary-color-lightest;
+    background-color: $editor-code-pane-color;
+    margin-left: $margin-xl * 0.25;
+    border: none;
+    font-weight: bold;
+    padding: 0.6rem;
+    border: 2px solid $editor-code-pane-color;
+    opacity: 0.6;
+}
+
+// .button-html:hover,
+// .button-css:hover,
+// .button-js:hover {
+//     font-weight: bold;
+//     background-color: $editor-code-pane-color;
+//     border-color: $form-primary-color-lightest;
+// }
+
+///View Instructions
+.button-instructions {
+    opacity: 0.7;
+    color: $form-primary-color-lightest;
+    border-radius: 3px;
+    padding: 0.7rem;
+    margin-right: 1rem;
+
+    font-weight: bold;
+    border: 1px solid $form-primary-color-lightest;
+    background-color: $editor-code-pane-color;
+}
+
+//// Send Code
+.button-console,
+.button--notification,
+.button-instructions,
+.button-comment,
+.button-submit,
+.button-sent,
+.button-review,
+.button-approved {
+    margin-left: 1rem;
+
+    width: 9rem;
+    //margin-right: $margin-xl * 2;
+    border-radius: 3px;
+    //padding: $padding-m;
+    padding: 0.7rem;
+    color: $editor-code-pane-color;
+    //background-color: $color-text-light;
+    background-color: $js-border-color;
+    //border: 1px solid $js-border-color;
+    font-weight: bold;
+    border: none;
+
+    // &:hover {
+    //     background-color: $form-primary-color-lightest;
+
+    //     margin-left: $margin-xl * 1;
+    //     font-weight: bold;
+    //     color: $color-primary;
+    // }
+}
+
+.button-sent,
+.button-approved {
+    min-width: 7rem;
+    background-color: green;
+    //background-color: $form-primary-color-lightest;
+    //padding: $padding-m;
+    padding: 0.7rem;
+    margin-left: $margin-xl * 1;
+    font-weight: bold;
+    //color: $form-primary-color-lightest;
+    //color: $color-text-light;
+    color: $form-primary-color-lightest;
+}
+
+.button-active {
+    // background-color: $form-primary-color-lightest;
+    // color: $editor-code-pane-color;
+    background-color: $editor-code-pane-color;
+    border-color: $form-primary-color-lightest;
+    opacity: 1;
+}
+
+// .instructions-icon {
+//     width: $margin-xl * 1.25;
+//     height: $margin-xl * 1.25;
+// }
+
+.button-html {
+    border: 1px solid white;
+    //border-color: $html-border-color;
+}
+.button-html.button-active {
+    background-color: $html-border-color;
+    border-color: $html-border-color;
+}
+
+.button-css {
+    //border-color: $css-border-color;
+    border: 1px solid white;
+    //border-color: rgb(32, 79, 236);
+}
+
+.button-css.button-active {
+    border-color: $css-border-color;
+    background-color: $css-border-color;
+    //border-color: rgb(32, 79, 236);
+}
+
+.button-js {
+    border: 1px solid white;
+    //border-color: $js-border-color;
+}
+
+.button-js.button-active {
+    background-color: $js-border-color;
+    border-color: $js-border-color;
+    color: $editor-code-pane-color;
+}
+
+.exampleClass {
+    padding: 12px 24px;
+    background-color: white;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+// .button-instructions span {
+//     color: rgb(255, 255, 255);
+//     position: relative;
+//     z-index: 1;
+//     transition: color 0.6s cubic-bezier(0.53, 0.21, 0, 1);
+
+//     &::before {
+//         content: '';
+//         position: absolute;
+//         top: 50%;
+//         left: 0;
+//         border-radius: 6px;
+//         transform: translate(-100%, -50%);
+//         width: 100%;
+//         height: 100%;
+//         background-color: hsl(244, 63%, 69%);
+//         transition: transform 0.6s cubic-bezier(0.53, 0.21, 0, 1);
+//     }
+
+//     &:hover {
+//         span {
+//             color: white;
+//         }
+
+//         &:before {
+//             transform: translate(0, -50%);
+//         }
+//     }
+// }
+
+.students--container select {
+    min-width: 18rem;
+    //margin-right: $margin-xl * 2;
+    border-radius: 3px;
+    //padding: $padding-m;
+    padding: 0.75rem;
+    //color: $editor-code-pane-color;
+    //background-color: $color-text-light;
+    // background-color: $js-border-color;
+    //border: 2px solid $form-primary-color-lightest;
+    border: 2px solid white;
+    font-weight: bold;
+}
+.custom--menu select {
+    min-width: 12rem;
+    //margin-right: $margin-xl * 2;
+    border-radius: 3px;
+    //padding: $padding-m;
+    padding: 0.75rem;
+    //color: $editor-code-pane-color;
+    //background-color: $color-text-light;
+    // background-color: $js-border-color;
+    //border: 2px solid $form-primary-color-lightest;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.button-instructions {
+    margin-left: 6rem;
+    width: 12rem;
+    background-color: $editor-code-pane-color;
+    color: $form-primary-color-lightest;
+    border: 1px solid $form-primary-color-lightest;
+}
+.instructions-active {
+    opacity: 1;
+    color: $form-primary-color-lightest;
+    font-weight: bold;
+    //border: 1px solid $form-primary-color-lightest;
+    color: $editor-code-pane-color;
+    background-color: $form-primary-color-lightest;
+}
+.button-console {
+    margin-left: 6rem;
+    width: 12rem;
+    background-color: $editor-code-pane-color;
+    color: $form-primary-color-lightest;
+    border: 1px solid $form-primary-color-lightest;
+}
+.console-active {
+    opacity: 1;
+    color: $form-primary-color-lightest;
+    font-weight: bold;
+    //border: 1px solid $form-primary-color-lightest;
+    color: $editor-code-pane-color;
+    background-color: $form-primary-color-lightest;
+}
+
+.radio--container input {
+    left: -170px !important;
+}
+
+.create-btn {
+    width: 15rem;
+}
+
+@media (min-width: 744px) {
+    footer {
+        .button-instructions {
+            display: none;
+        }
+    }
+}
+
+.range {
+    -webkit-appearance: none;
+    vertical-align: middle;
+    outline: none;
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+.range::-webkit-slider-runnable-track {
+    background-color: #d7dbdd;
+    height: 6px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+}
+
+.range::-moz-range-track {
+    background-color: #d7dbdd;
+    height: 6px;
+    border-radius: 3px;
+    border: none;
+}
+
+.range::-ms-track {
+    color: transparent;
+    border: none;
+    background: none;
+    height: 6px;
+}
+
+.range::-ms-fill-lower {
+    background-color: #d7dbdd;
+    border-radius: 3px;
+}
+
+.range::-ms-fill-upper {
+    background-color: #d7dbdd;
+    border-radius: 3px;
+}
+
+.range::-ms-tooltip {
+    display: none; /* display and visibility only */
+}
+
+.range::-moz-range-thumb {
+    border-radius: 20px;
+    height: 18px;
+    width: 18px;
+    border: none;
+    background: none;
+    background-color: #606670;
+}
+
+.range:active::-moz-range-thumb {
+    outline: none;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    border-radius: 100%;
+    background-color: #606670;
+    height: 18px;
+    width: 18px;
+    margin-top: -7px;
+}
+
+.range:active::-webkit-slider-thumb {
+    outline: none;
+}
+
+.range::-ms-thumb {
+    border-radius: 100%;
+    background-color: #606670;
+    height: 18px;
+    width: 18px;
+    border: none;
+}
+
+.range:active::-ms-thumb {
+    border: none;
+}
+
+output {
+    border: 1px solid #d7dbdd;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    padding: 0.4em 0.6em;
+    border-radius: 3px;
+}
+
+.greyed-out {
+    background-color: gray !important;
+}
